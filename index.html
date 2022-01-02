@@ -86,10 +86,10 @@
                 <option value="WY">Wyoming</option>
             </select>
               <label for="zip">Your Zipcode</label>
-              <input type="text" id="zip" name="zip" pattern="[0-9{5}" title="5-Digit US ZIP Code">
+              <input type="text" id="zip" name="zip" pattern="[0-9]{5}" title="5-Digit US ZIP Code">
 
               <lable for="age">Your Age</lable>
-              <input type="number" id="age" name="age" minlength="21" maxlength="120">
+              <input type="number" name="age" id="age"  min="21" max="120">
               <h5>Must be 21 or older to enter.</h5>  
             </fieldset>
            
@@ -99,16 +99,16 @@
             <legend>Your Preferences</legend>
             <h3>Choose your location</h3>
             <div>
-                <input type="radio"id="aruba" name="location"value="Aruba"checked>
+                <input type="radio"id="aruba" name="location"value="Aruba">
                 <label for="aruba">Aruba</label>
 
                 <input type="radio" id="japan" name="location" value="Japan" checked>
                 <label for="japan">Japan</label>
 
-                <input type="radio" id="reykjavik" name="location" value="Reykjavik" checked>
+                <input type="radio" id="reykjavik" name="location" value="Reykjavik" >
                 <lable for="reykjavik">Reykjavik</lable>
 
-                <input type="radio" id="new-zealand" name="location" value="New-Zealand" checked>
+                <input type="radio" id="new-zealand" name="location" value="New-Zealand" >
                 <label for="new-zealand">New-Zealand</label>
             </div>
         </fieldset>
@@ -117,7 +117,7 @@
             <legend>Your Preferences</legend>
             <h3>Choose your Color</h3>
             <div>
-                <input type="color" name="color"checked>
+                <input type="color" name="color">
                 <label for="color"></label>
             </div>
         </fieldset>
@@ -160,6 +160,6 @@
         <h2>Resource Attributions</h2>
         <p>All images provided for free use via <a href="https://unsplash.com/">Unsplash.com</a> whose generous <a href="https://unsplash.com/license">license details can be found here</a>.</p>
     </footer>
-      
+      </main>
 </body>
 </html>
